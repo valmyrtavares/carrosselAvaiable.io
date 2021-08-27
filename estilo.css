@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    box-sizing:border-box;
 }
 
 section{
@@ -9,8 +9,7 @@ section{
 }
 .content-img{
     display:flex;
-    width: calc(100vw * 3);
-    
+    transition: all ease 1s;   
 
 }
 

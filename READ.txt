@@ -1,0 +1,26 @@
+Eu vou contruir um carrossel que é manipulado pelo margin-left
+Imagens que tomam toda a tela e vão mantendo o meio delas conforme o width vai 
+diminuindo. Essa não solução muito popular para quem não quer que as Imagens sem 
+corte mas se isso não for um problema funciona bem. Ao invés de colocar a imagem
+em um img coloca ela dentro de um background-image e isso faz com que vc possa
+escrever sobre a imagem e tenha essa facilidade em cortá-la sem distorcer.
+Eu vou dar os commit devagar para dar para acompanhar
+Fiz apenas um html com uma div e 3 outras dentro dela dei um tamanho de 3 telas para
+o content das fotos e coloquei um overflow:hidden no section para que a div.content
+se mova mas a section fique parada. Esse no final é a parte principal de nova
+o sript é bem tranquilo
+
+Mantive o css o mais simples que consegui para que fique somente o essencial para que 
+o carrossel funcione. O instanciamento da classe tem 4 parametros. As imagens, a div que 
+contem as imagens, os dois botões e o tempo do setInterval. Acho que é tudo que é preciso 
+saber. O uso vai responder
+Outro ponto que vale a pena ressaltar aqui é o uso do setInterval dentro do init()
+ou de qualquer outro método que dispare o setInterval. Ele precisa ser no formato
+de arrow function. A forma tradicional não funciona nas classes, pelo mesmo motivo de 
+antes. Ele não encontra o this. Nesse caso o setInterval é dispardo de dentro do init
+Sem a necessidade de usar clearIntercal nos botões de para frente e para trás como 
+fiz no slider anterior. Vale a pena testar o metodo no outro. Isso vai tornar o código
+um tanto mais simples.
+Aqui um outro tema que também vale se debruçar que é a diferença entre o transition
+e animation, eu até hoje faço uma profunda confusão com ambos.
+Nesse caso em especial o uso do transition poupou uma série de linhas de código
