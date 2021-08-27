@@ -24,3 +24,5 @@ um tanto mais simples.
 Aqui um outro tema que também vale se debruçar que é a diferença entre o transition
 e animation, eu até hoje faço uma profunda confusão com ambos.
 Nesse caso em especial o uso do transition poupou uma série de linhas de código
+Segue link publicado
+https://valmyrtavares.github.io/carrosselAvaiable.io/
